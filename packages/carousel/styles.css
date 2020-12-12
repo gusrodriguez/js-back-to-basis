@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+}
+.carousel-item{
+  width: 600px;
+  height: 300px;
+  border: 1px solid black;
+  display: inline-block;
+  position: absolute;
+  transition: all .5s;
+  left: 0;
+}
+.carousel-items-container {
+  position: relative;
+  width: 602px;
+  height: 302px;
+  margin: auto;
+  overflow: hidden;
+}
+.hidden {
+  display: none;
+}
+.inline {
+  display: inline-block;
+}
+.container {
+  text-align: center;
+  position: relative;
+}

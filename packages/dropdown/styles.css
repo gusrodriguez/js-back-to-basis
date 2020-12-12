@@ -1,0 +1,45 @@
+.dropdown-container {
+  list-style: none;
+  padding: 0;
+  overflow: hidden;
+  transition: height .5s;
+  height: 200px;
+  border: 1px solid black;
+  border-top: none;
+  margin-top: 0;
+}
+
+.hide {
+  height: 0;
+  transition: height 0s, opacity 0s;
+  opacity: 0;
+}
+
+.hideWithAnimation {
+  height: 0;
+  transition: height .4s, opacity .8s;
+  opacity: 0;
+}
+
+.selected-option {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: center;
+}
+
+.selected-option:hover, .dropdown-option:hover {
+  cursor: pointer;
+}
+
+.container {
+  width: 200px;
+}
+
+.dropdown-option {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.hide .dropdown-option {
+  display: none;
+}
